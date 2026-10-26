@@ -1,0 +1,15 @@
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\bin\Debug\net10.0\HolaMundo.exe
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\bin\Debug\net10.0\HolaMundo.deps.json
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\bin\Debug\net10.0\HolaMundo.runtimeconfig.json
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\bin\Debug\net10.0\HolaMundo.dll
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\bin\Debug\net10.0\HolaMundo.pdb
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\HolaMundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\HolaMundo.AssemblyInfoInputs.cache
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\HolaMundo.AssemblyInfo.cs
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\HolaMundo.csproj.CoreCompileInputs.cache
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\HolaMundo.dll
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\refint\HolaMundo.dll
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\HolaMundo.pdb
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\HolaMundo.genruntimeconfig.cache
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\ref\HolaMundo.dll
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\HolaMundoSolucion\HolaMundoSolucion\obj\Debug\net10.0\HolaMundo.csproj.Up2Date

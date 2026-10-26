@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\HolaMundoSolucion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A185C3E1-0726-4D5A-81E9-AF57DFE68B7F}|HolaMundoSolucion\\HolaMundo.csproj|c:\\users\\alvaro.vizuete\\documents\\github\\sistemas_gestion\\unidad5\\holamundosolucion\\holamundosolucion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A185C3E1-0726-4D5A-81E9-AF57DFE68B7F}|HolaMundoSolucion\\HolaMundo.csproj|solutionrelative:holamundosolucion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\HolaMundoSolucion\\HolaMundoSolucion\\Program.cs",
+              "RelativeDocumentMoniker": "HolaMundoSolucion\\Program.cs",
+              "ToolTip": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\HolaMundoSolucion\\HolaMundoSolucion\\Program.cs",
+              "RelativeToolTip": "HolaMundoSolucion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T11:47:41.158Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

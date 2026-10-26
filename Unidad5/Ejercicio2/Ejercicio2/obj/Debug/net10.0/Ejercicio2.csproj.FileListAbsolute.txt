@@ -1,0 +1,16 @@
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\bin\Debug\net10.0\Ejercicio2.exe
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\bin\Debug\net10.0\Ejercicio2.deps.json
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\bin\Debug\net10.0\Ejercicio2.runtimeconfig.json
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\bin\Debug\net10.0\Ejercicio2.dll
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\bin\Debug\net10.0\Ejercicio2.pdb
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\Ejercicio2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\Ejercicio2.AssemblyInfoInputs.cache
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\Ejercicio2.AssemblyInfo.cs
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\Ejercicio2.dll
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\refint\Ejercicio2.dll
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\Ejercicio2.pdb
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\Ejercicio2.genruntimeconfig.cache
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\ref\Ejercicio2.dll
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\Ejercicio2.sourcelink.json
+C:\Users\alvaro.vizuete\Documents\GitHub\Sistemas_Gestion\Unidad5\Ejercicio2\Ejercicio2\obj\Debug\net10.0\Ejercicio2.csproj.Up2Date
