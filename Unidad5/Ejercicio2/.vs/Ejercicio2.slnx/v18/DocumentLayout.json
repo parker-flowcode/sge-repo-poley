@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\",
+  "WorkspaceRootPath": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\alvaro.vizuete\\documents\\github\\sistemas_gestion\\unidad5\\ejercicio2\\ejercicio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\pedro.poley\\desktop\\sge-repo-poley\\unidad5\\ejercicio2\\ejercicio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\alvaro.vizuete\\documents\\github\\sistemas_gestion\\unidad5\\ejercicio2\\ejercicio2\\data\\repositoryalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\pedro.poley\\desktop\\sge-repo-poley\\unidad5\\ejercicio2\\ejercicio2\\data\\repositoryalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\data\\repositoryalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\alvaro.vizuete\\documents\\github\\sistemas_gestion\\unidad5\\ejercicio2\\ejercicio2\\data\\repositorypersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\pedro.poley\\desktop\\sge-repo-poley\\unidad5\\ejercicio2\\ejercicio2\\data\\repositorypersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\data\\repositorypersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\alvaro.vizuete\\documents\\github\\sistemas_gestion\\unidad5\\ejercicio2\\ejercicio2\\clsalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\pedro.poley\\desktop\\sge-repo-poley\\unidad5\\ejercicio2\\ejercicio2\\clsalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\clsalumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\alvaro.vizuete\\documents\\github\\sistemas_gestion\\unidad5\\ejercicio2\\ejercicio2\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|c:\\users\\pedro.poley\\desktop\\sge-repo-poley\\unidad5\\ejercicio2\\ejercicio2\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}|Ejercicio2\\Ejercicio2.csproj|solutionrelative:ejercicio2\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,61 +40,57 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "repositoryAlumno.cs",
-              "DocumentMoniker": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\Data\\repositoryAlumno.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\Data\\repositoryAlumno.cs",
               "RelativeDocumentMoniker": "Ejercicio2\\Data\\repositoryAlumno.cs",
-              "ToolTip": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\Data\\repositoryAlumno.cs",
+              "ToolTip": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\Data\\repositoryAlumno.cs",
               "RelativeToolTip": "Ejercicio2\\Data\\repositoryAlumno.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T07:39:48.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T07:39:48.632Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "repositoryPersonas.cs",
-              "DocumentMoniker": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\Data\\repositoryPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\Data\\repositoryPersonas.cs",
               "RelativeDocumentMoniker": "Ejercicio2\\Data\\repositoryPersonas.cs",
-              "ToolTip": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\Data\\repositoryPersonas.cs",
+              "ToolTip": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\Data\\repositoryPersonas.cs",
               "RelativeToolTip": "Ejercicio2\\Data\\repositoryPersonas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T07:39:03.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T07:39:03.286Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "clsAlumno.cs",
-              "DocumentMoniker": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\clsAlumno.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\clsAlumno.cs",
               "RelativeDocumentMoniker": "Ejercicio2\\clsAlumno.cs",
-              "ToolTip": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\clsAlumno.cs",
+              "ToolTip": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\clsAlumno.cs",
               "RelativeToolTip": "Ejercicio2\\clsAlumno.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T07:33:58.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T07:33:58.664Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "clsPersona.cs",
-              "DocumentMoniker": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\clsPersona.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\clsPersona.cs",
               "RelativeDocumentMoniker": "Ejercicio2\\clsPersona.cs",
-              "ToolTip": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\clsPersona.cs",
+              "ToolTip": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\clsPersona.cs",
               "RelativeToolTip": "Ejercicio2\\clsPersona.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T12:04:45.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T12:04:45.415Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\Program.cs",
               "RelativeDocumentMoniker": "Ejercicio2\\Program.cs",
-              "ToolTip": "C:\\Users\\alvaro.vizuete\\Documents\\GitHub\\Sistemas_Gestion\\Unidad5\\Ejercicio2\\Ejercicio2\\Program.cs",
+              "ToolTip": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad5\\Ejercicio2\\Ejercicio2\\Program.cs",
               "RelativeToolTip": "Ejercicio2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
