@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Mi horario de clase";
+    DateTime fechaActual = DateTime.Now;
+
+    // Días de la semana para las columnas.
+    string[] arrayDias = { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes" };
+
+    // Siete franjas horarias y cinco días.
+    string[,] arrayHorario = {
+        { "PSEP", "PSEP", "ACDAT", "PSEP", "ACDAT" },
+        { "DEINT", "DEINT", "PMDMO", "DEINT", "PMDMO" },
+        { "SGEMP", "SGEMP", "IPE2", "SGEMP", "IPE2" },
+        { "Recreo", "Recreo", "Recreo", "Recreo", "Recreo" },
+        { "ACDAT", "ACDAT", "INGLÉS", "ACDAT", "INGLÉS" },
+        { "PROY", "PROY", "PSEP", "UNITY", "UNITY" },
+        { "DEINT", "DEINT", "PMDMO", "UNITY", "DEINT" }
+    };
+}
+
+<header class="text-center mb-4">
+    <h1>Mi horario de clase</h1>
+    <p class="lead">Hoy es @fechaActual.ToString("dd/MM/yyyy") y son las @fechaActual.ToString("HH:mm:ss")</p>
+
+    @if (fechaActual.Hour >= 14 && fechaActual.Hour < 20)
+    {
+        <p>Es por la tarde.</p>
+    }
+    else if (fechaActual.Hour >= 20 || fechaActual.Hour < 6)
+    {
+        <p>Es por la noche.</p>
+    }
+    else
+    {
+        <p>Es por la mañana.</p>
+    }
+</header>
+
+<div class="table-responsive">
+    <table class="table table-bordered text-center align-middle horario">
+        <thead>
+            <tr>
+                <th scope="col">Franja</th>
+                @for (int dia = 0; dia < arrayDias.Length; dia++)
+                {
+                    <th scope="col">@arrayDias[dia]</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @for (int fila = 0; fila < arrayHorario.GetLength(0); fila++)
+            {
+                <tr>
+                    <th scope="row">@(fila + 1)</th>
+                    @for (int columna = 0; columna < arrayHorario.GetLength(1); columna++)
+                    {
+                        string asignatura = arrayHorario[fila, columna];
+                        string claseCelda = asignatura == "Recreo" ? "recreo" : string.Empty;
+                        <td class="@claseCelda">@asignatura</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .horario th {
+        background-color: #e8f1ff;
+    }
+
+    .horario td {
+        min-width: 120px;
+        height: 58px;
+        font-weight: 500;
+    }
+
+    .horario .recreo {
+        background-color: #ffe08a;
+        color: #704c00;
+        font-weight: 700;
+    }
+</style>
