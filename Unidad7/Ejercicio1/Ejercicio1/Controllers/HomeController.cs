@@ -1,4 +1,5 @@
 using Ejercicio1.Models;
+using Ejercicio1.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,7 +7,7 @@ namespace Ejercicio1.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index()    
         {
             var mensaje = "";
 
@@ -22,10 +23,14 @@ namespace Ejercicio1.Controllers
             {
                 mensaje = "¡Buenas noches!";
             }
-            ViewData["Mensaje"] = mensaje;
+
+            ViewData["Saludo"] = mensaje;
             ViewBag.FechaActual = DateTime.Now.ToString("dd/MM/yyyy");
             ViewBag.HoraActual = DateTime.Now.ToString("HH:mm:ss");
-            return View();
+
+            var persona = new clsPersona("Pedro", "Poley", 18);
+
+            return View(persona);
         }
 
         public IActionResult Privacy()

@@ -1,11 +1,15 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model Ejercicio1.Models.Entities.clsPersona
+
+@{
+    ViewData["Title"] = "Inicio";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <p>@ViewBag.Mensaje</p>
-    <p>@ViewBag.FechaActual</p>
-    <p>@ViewBag.HoraActual</p>
+    <h1 class="display-4">@ViewData["Saludo"]</h1>
+    <p>Fecha actual: @ViewBag.FechaActual</p>
+    <p>Hora actual: @ViewBag.HoraActual</p>
+    <h2>Datos de la persona</h2>
+    <p>Nombre: @Model.Nombre</p>
+    <p>Apellidos: @Model.Apellidos</p>
+    <p>Edad: @Model.Edad años</p>
 </div>
