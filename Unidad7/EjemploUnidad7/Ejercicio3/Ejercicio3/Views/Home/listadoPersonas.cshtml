@@ -1,0 +1,34 @@
+@model IEnumerable<Ejercicio3.Models.Entities.clsPersona>
+
+@{
+    ViewData["Title"] = "Listado de personas";
+}
+
+<h1>Listado de personas</h1>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDOS</th>
+            <th>EDAD</th>
+            <th>EMAIL</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var persona in Model)
+        {
+            <tr>
+                <td>@persona.Nombre</td>
+                <td>@persona.Apellidos</td>
+                <td>@persona.Edad</td>
+                <td>@persona.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-primary" asp-controller="Home" asp-action="Persona">
+    Ver datos de la persona en la posición 3
+</a>
+<a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Volver a Index</a>

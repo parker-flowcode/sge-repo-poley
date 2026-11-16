@@ -1,0 +1,24 @@
+@model Ejercicio3.Models.Entities.clsPersona
+
+@{
+    ViewData["Title"] = "Persona en la posición 3";
+}
+
+<h1>Datos de la persona en la posición 3</h1>
+
+<dl class="row">
+    <dt class="col-sm-3">Nombre</dt>
+    <dd class="col-sm-9">@Model.Nombre</dd>
+
+    <dt class="col-sm-3">Apellidos</dt>
+    <dd class="col-sm-9">@Model.Apellidos</dd>
+
+    <dt class="col-sm-3">Edad</dt>
+    <dd class="col-sm-9">@Model.Edad</dd>
+
+    <dt class="col-sm-3">Email</dt>
+    <dd class="col-sm-9">@Model.Email</dd>
+</dl>
+
+<a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Volver a Index</a>
+<a class="btn btn-primary" asp-controller="Home" asp-action="listadoPersonas">Ver listado</a>

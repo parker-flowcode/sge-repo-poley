@@ -1,0 +1,26 @@
+﻿@model Ejercicio2.Models.Entities.clsPersona
+
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Saludo"]</h1>
+    <p>La fecha actual es: @ViewBag.Fecha</p>
+
+    <h2>Datos de la persona</h2>
+    <dl class="row text-start mx-auto" style="max-width: 500px;">
+        <dt class="col-sm-4">Nombre</dt>
+        <dd class="col-sm-8">@Model.Nombre</dd>
+        <dt class="col-sm-4">Apellidos</dt>
+        <dd class="col-sm-8">@Model.Apellidos</dd>
+        <dt class="col-sm-4">Edad</dt>
+        <dd class="col-sm-8">@Model.Edad</dd>
+        <dt class="col-sm-4">Email</dt>
+        <dd class="col-sm-8">@Model.Email</dd>
+    </dl>
+
+    <a class="btn btn-primary" asp-controller="Home" asp-action="listadoPersonas">
+        Ver listado de personas
+    </a>
+</div>
