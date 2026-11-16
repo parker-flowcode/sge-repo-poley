@@ -1,0 +1,41 @@
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model EditarPersonaViewModel
+
+@{
+    ViewData["Title"] = "Editar persona";
+}
+
+<h1>Editar persona</h1>
+
+<form method="get" asp-action="EditarPersona">
+    <div class="mb-3">
+        <label asp-for="Persona.Nombre" class="form-label">Nombre</label>
+        @Html.TextBoxFor(model => model.Persona.Nombre, new { @class = "form-control" })
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Persona.Apellidos" class="form-label">Apellidos</label>
+        @Html.TextBoxFor(model => model.Persona.Apellidos, new { @class = "form-control" })
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Persona.Edad" class="form-label">Edad</label>
+        @Html.TextBoxFor(model => model.Persona.Edad, new { @class = "form-control", type = "number" })
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Persona.Email" class="form-label">Correo electrónico</label>
+        @Html.TextBoxFor(model => model.Persona.Email, new { @class = "form-control", type = "email" })
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Persona.IdDepartamento" class="form-label">Departamento</label>
+        @Html.DropDownListFor(
+            model => model.Persona.IdDepartamento,
+            new SelectList(Model.Departamentos, "IdDepartamento", "NombreDepartamento", Model.Persona.IdDepartamento),
+            "Seleccione un departamento",
+            new { @class = "form-select" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
