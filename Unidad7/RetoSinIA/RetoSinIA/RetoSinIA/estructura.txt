@@ -31,8 +31,16 @@ application
 			+nombreCliente: string(get)
 			+apellidoCliente: string(get)
 			+tipoHabitacion: string(get)
-			+estadoReserva: string(get)
+			+estadoReserva: string(get)        
 			+numNoches: int(get)
+		ReservaConListaTipoHabitacionDTO
+			+idReserva: int(get/set)
+			+nombreCliente: string(get/set)
+			+apellidoCliente: string(get/set)
+			+idTipoHabitacion: int(get/set)
+			+estadoReserva: string(get/set)        
+			+numNoches: int(get/set)
+			+TipoHabitacion[]: listaHabitaciones(get)
 	interfaces
 		reservas
 			IListarReservas
@@ -43,6 +51,10 @@ application
 				+execute(id: int, idHabitacion: int): boolean
 			IGetReservaCompletaDTO
 				+execute(): ReservaCompletaDTO[]
+			IGetReservaCompletaByIdDTO
+				+execute(id: int): ReservaCompletaDTO
+			IGetReservaListaTipoHabitacionDTO
+				+execute(): ReservaConListaTipoHabitacionDTO[]
 		habitaciones
 			IGetHabitaciones
 				+execute(): Habitacion[]
@@ -51,24 +63,31 @@ application
 		clientes
 			IGetClienteById
 				+execute(id: int): Cliente
-	useCasesClases
-		UseCaseListarReservas implements iUseCaseListarReservas
-			Se le inyecta iRepositoryReserva
-			+execute(): List<clsReserva>
-		UseCaseActualizarReserva implements iUseCaseActualizarReserva
-			Se le inyecta iRepositoryReserva y iRepositoryHabitacion
-			+execute(id: int, idHabitacion: int): boolean
-		UseCaseListarHabitaciones implements iUseCaseListarHabitaciones
-			Se le inyecta iRepositoryHabitacion
-			+execute(): List<clsHabitacion>
+	useCases
+		reservasUseCases
+			GetReservasCompleto implements IGetReservasCompleto se le inyecta IRepositoryReserva
+				+execute(): List<clsReserva>
+			GetReservaById implements IGetReservaById se le inyecta IRepositoryReserva
+				+execute(id: int): Reserva
+			ActualizarReserva implements IActualizarReserva se le inyecta IRepositoryReserva
+				+execute(id: int, idHabitacion: int): boolean
+			GetReservaCompletaDTO implements IGetReservaCompletaDTO se le inyecta IRepositoryReserva,IRepositoryTipoHabitacion, iRepositoryCliente
+				+execute(): ReservaCompletaDTO[]
+			GetReservaCompletaByIdDTO implements IGetReservaCompletaByIdDTO se le inyecta IRepositoryReserva, IRepositoryTipoHabitacion, IRepositoryCliente
+				+execute(id: int): ReservaCompletaDTO
+			GetReservaListaTipoHabitacionDTO implements IGetReservaListaTipoHabitacionDTO se le inyecta IRepositoryReserva, IRepositoryTipoHabitacion, IRepositoryCliente
+				+execute(): ReservaConListaTipoHabitacionDTO[]
 data
 	repositories
-		repositoryReserva implements IRepositoryReserva
-			+getAll(): List<clsReserva>
-			+getById(id: int): clsReserva
-		repositoryHabitacion implements IRepositoryTipoHabitacion
-			+getAll(): List<clsHabitacion>
-			+getById(id: int): clsHabitacion
+			RepositoryReserva implements IRepositoryReserva
+				+getAllReservas(): Reserva[]
+				+getByReservaId(id: int): Reserva
+				+actualizarReserva(id: int, reserva: Reserva): boolean
+			RepositoryTipoHabitacion implements IRepositoryTipoHabitacion
+				+getAllTiposHabitacion(): TipoHabitacion[]
+				+getByIdTipoHabitacion(id: int): TipoHabitacion
+			RepositoryCliente implements IRepositoryCliente
+				+getByIdCliente(id: int): Cliente
 presentation
 	model
 		ReservaModel
@@ -79,17 +98,14 @@ presentation
 			+tipoHabitacion: string(get, set)
 			+estado: string(get, set)
 	controller
-		ReservaController
-			+listarReservas(): List<clsReserva>
-			+actualizarReserva(id: int, idHabitacion: int): boolean
+		ReservaController se le inyecta el IGetReservaCompletaDTO, IGetReservaCompletaByIdDTO, IGetReservaListaTipoHabitacionDTO
+			+IActionResult Index() // Muestra el listado de los dto ReservaCompletaDTO (en vista)
+			+IActionresult Detalles(int id) //Obtenemos detalles buscando la reversa por id y mostramos en vista
+			+IActionResult Editar(int id) //Obtenemos detalles buscando la reversa por id y mostramos en vista
+			[HTTPOST] //Recibimos el modelo de la vista y actualizamos la reserva
+			+IActionResult Editar(ReservaListaTipoHabitacionDTO) //Recibimos el modelo de la vista y actualizamos la reserva
 	view
-		IndexView
-			+mostrarReservas(reservas: List<clsReserva>): void
-			+mostrarMensajeActualizacion(resultado: boolean): void
-		EditarReservaView
-			+mostrarReservas(reservas: List<clsReserva>): void
-			+mostrarMensajeActualizacion(resultado: boolean): void
-		DetalleReservaView
-			+mostrarReservas(reservas: List<clsReserva>): void
-			+mostrarMensajeActualizacion(resultado: boolean): void
+		Index.cshtml
+		Detalles.cshtml
+		Editar.cshtml
 core

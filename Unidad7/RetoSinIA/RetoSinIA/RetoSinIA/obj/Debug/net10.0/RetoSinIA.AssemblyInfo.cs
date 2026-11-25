@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RetoSinIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c6352ba541cc139b892a3f8a69a848bcb57f632")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77b8a91df63067c4706f4fe8f4d414faf21b93e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RetoSinIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RetoSinIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

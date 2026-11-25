@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\RetoSinIA.csproj": {}
+    "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\RetoSinIA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\RetoSinIA.csproj": {
+    "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\RetoSinIA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\RetoSinIA.csproj",
+        "projectUniqueName": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\RetoSinIA.csproj",
         "projectName": "RetoSinIA",
-        "projectPath": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\RetoSinIA.csproj",
+        "projectPath": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\RetoSinIA.csproj",
         "packagesPath": "C:\\Users\\pedro.poley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\obj\\",
+        "outputPath": "C:\\Users\\pedro.poley\\Desktop\\sge-repo-poley\\sge-repo-poley\\Unidad7\\RetoSinIA\\RetoSinIA\\RetoSinIA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.404/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
