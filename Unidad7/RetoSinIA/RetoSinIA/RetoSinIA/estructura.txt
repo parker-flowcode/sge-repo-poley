@@ -1,0 +1,95 @@
+domain
+	entities
+		clsReserva
+			+id: int(get)
+			+idCliente: int(get, set)
+			+numNoches: int(get, set)
+			+idTipoHabitacion: int(get, set)
+			+estado: string(get, set)
+		clsTipoHabitacion
+			+idTipoHabitacion: int(get)
+			+tipo: string(get, set)
+		clsCliente
+			+idCliente: int(get)
+			+nombre: string(get, set)
+			+apellido: string(get, set)
+	interfaces
+		repositories
+			IRepositoryReserva
+				+getAllReservas(): Reserva[]
+				+getByReservaId(id: int): Reserva
+				+actualizarReserva(id: int, reserva: Reserva): boolean
+			IRepositoryTipoHabitacion
+				+getAllTiposHabitacion(): TipoHabitacion[]
+				+getByIdTipoHabitacion(id: int): TipoHabitacion
+			IRepositoryCliente
+				+getByIdCliente(id: int): Cliente
+application
+	dtos
+		ReservaCompletaDTO
+			+idReserva: int(get)
+			+nombreCliente: string(get)
+			+apellidoCliente: string(get)
+			+tipoHabitacion: string(get)
+			+estadoReserva: string(get)
+			+numNoches: int(get)
+	interfaces
+		reservas
+			IListarReservas
+				+execute(): Reserva[]
+			IGetReservaById
+				+execute(id: int): Reserva
+			IActualizarReserva
+				+execute(id: int, idHabitacion: int): boolean
+			IGetReservaCompletaDTO
+				+execute(): ReservaCompletaDTO[]
+		habitaciones
+			IGetHabitaciones
+				+execute(): Habitacion[]
+			IGetHabitacionById
+				+execute(id: int): Habitacion
+		clientes
+			IGetClienteById
+				+execute(id: int): Cliente
+	useCasesClases
+		UseCaseListarReservas implements iUseCaseListarReservas
+			Se le inyecta iRepositoryReserva
+			+execute(): List<clsReserva>
+		UseCaseActualizarReserva implements iUseCaseActualizarReserva
+			Se le inyecta iRepositoryReserva y iRepositoryHabitacion
+			+execute(id: int, idHabitacion: int): boolean
+		UseCaseListarHabitaciones implements iUseCaseListarHabitaciones
+			Se le inyecta iRepositoryHabitacion
+			+execute(): List<clsHabitacion>
+data
+	repositories
+		repositoryReserva implements IRepositoryReserva
+			+getAll(): List<clsReserva>
+			+getById(id: int): clsReserva
+		repositoryHabitacion implements IRepositoryTipoHabitacion
+			+getAll(): List<clsHabitacion>
+			+getById(id: int): clsHabitacion
+presentation
+	model
+		ReservaModel
+			+id: int(get)
+			+nombreCliente: string(get, set)
+			+numNoches: int(get, set)
+			+idHabitacion: int(get, set)
+			+tipoHabitacion: string(get, set)
+			+estado: string(get, set)
+	controller
+		ReservaController
+			+listarReservas(): List<clsReserva>
+			+actualizarReserva(id: int, idHabitacion: int): boolean
+	view
+		IndexView
+			+mostrarReservas(reservas: List<clsReserva>): void
+			+mostrarMensajeActualizacion(resultado: boolean): void
+		EditarReservaView
+			+mostrarReservas(reservas: List<clsReserva>): void
+			+mostrarMensajeActualizacion(resultado: boolean): void
+		DetalleReservaView
+			+mostrarReservas(reservas: List<clsReserva>): void
+			+mostrarMensajeActualizacion(resultado: boolean): void
+core
